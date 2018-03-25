@@ -16,6 +16,7 @@ admin:
   username: kenny
   password_hash: $2a$10$i1n7gPyCRIqbw6vOtZm76.Qwpb7fsy4W3rCXHQFKKuqtkKe2lvosO
   secret: this is secret
+  #deployCommand: './hexo-deploy.sh'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -94,5 +95,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/KennyLib/kennylib.github.io.git
+  repo: git@github.com:KennyLib/kennylib.github.io.git
   branch: master
